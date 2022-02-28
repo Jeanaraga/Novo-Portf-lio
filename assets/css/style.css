@@ -49,6 +49,20 @@ header ul {
     color: #03045E;
 }
 
+.logo i {
+    animation: h2Rotate 3s linear 0s infinite normal forwards;
+}
+
+@keyframes h2Rotate {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 .principal-header {
     display: flex;
     align-items: center;
@@ -80,7 +94,7 @@ header ul {
 }
 
 .typing-animation {
-    animation: myAnim 0.8s ease 0s 20 normal forwards;
+    animation: myAnim 0.8s ease 0s infinite normal forwards;
     border-right: 2px solid #03045E; 
 }
 
@@ -109,7 +123,7 @@ header ul {
 
 .botao button{
     height: 50px;
-    width: 200px;
+    width: 220px;
     cursor: pointer;
     background-color: #03045E;
     color: #CAF0F8;
@@ -350,7 +364,7 @@ main {
 
 /**** SCROLL REVEAL ***/
 
-.introducao-main, .personal-details, .interests {
+.introducao-main, .personal-details, .interests{
     visibility: hidden;
 }
 

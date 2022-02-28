@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Jean Pedro | Portfolio</title>
@@ -16,7 +17,7 @@
             <nav class="links-internos link-1">
                 <ul>
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
                         <a href="#">Skills</a>
@@ -24,21 +25,14 @@
                     <li>
                         <a href="#">Projects</a>
                     </li>
-                </ul>
-            </nav>
-            <nav class="redes-sociais link-1">
-                <ul>
                     <li>
-                        <a href=""> <i class="fa-brands fa-github"></i> </a>
-                    </li>
-                    <li>
-                        <a href=""> <i class="fa-brands fa-instagram"></i> </a>
-                    </li>
-                    <li>
-                        <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+                        <a href="">Contact</a>
                     </li>
                 </ul>
             </nav>
+            <div class="logo">
+                <h2>J.P</h2>
+            </div>
         </div>
 
         <div class="principal-header">
@@ -56,7 +50,106 @@
         </div>
     </header>
 
+    <main>
+        <div class="introducao-main" id="about">
+            <div class="titulo">
+                <h2 class="sobre">About Me  <i class="fa-solid fa-laptop-code"></i></h2>
+                <hr class="barra">
+            </div>
+            <div class="descricao">
+                <div class="img-descricao">
+                    <img src="./assets/img/Imagem-perfil-github.png" alt="">
+                </div>
+                <div class="texto-descricao">
+                    <p><em>Hello my name is Jean Pedro and I'm Front End Developer</em>.I've been studying to be a Front End Developer for 5 months, I'm still at the beginning of my long journey. But I'm always attentive to learn new things and new technologies.</p>
+                    <p>I learned everything I know through online courses, but I intend to do <em>Systems Development Analysis</em> after finishing high school.</p>
+                    <p>I've already learned HTML and CSS, I've done several projects with these technologies, and I'm currently studying JavaScript. After learning JavaScript I intend to learn React</p>
+                </div>
+            </div>
+        </div>
+        <div class="outros-main">
+            <div class="personal-details">
+                <div class="titulo-detalhes">
+                    <h2>Personal Details</h2>
+                </div>
+                <div class="detalhes">
+                    <ul class="items-detalhes">
+                        <li class="item-p">Birthday</li>
+                        <li class="item-p">Phone</li>
+                        <li class="item-p">Address</li>
+                        <li class="item-p">Occupation</li>
+                    </ul>
+                    <ul class="info-detalhes">
+                        <li>04/03/2005</li>
+                        <li>+55 (37) 9 9128-8953</li>
+                        <li>Divinópolis, MG - Brazil</li>
+                        <li>Student</li>
+                    </ul>
+                </div>  
+            </div>
+            <div class="interests">
+                <div class="titulo-interesses">
+                    <h2>My Interets</h2>
+                </div>
+                <div class="container-interesses">
+                    <div class="blocao blocao-1">
+                        <div class="bloquinho bloquinho-1">
+                            <span class="icon"><i class="fa-solid fa-gamepad"></i></span>
+                            <span>Game</span>
+                        </div>
+                        <div class="bloquinho bloquinho-2">
+                            <span class="icon"><i class="fa-solid fa-music"></i></span>
+                            <span>Music</span>
+                        </div>
+                        <div class="bloquinho bloquinho-3">
+                            <span class="icon"><i class="fa-solid fa-futbol"></i></span>
+                            <span>Futebol</span>
+                        </div>
+                        <div class="bloquinho bloquinho-4">
+                            <span class="icon"><i class="fa-solid fa-book-journal-whills"></i></span>
+                            <span>HQ</span>
+                        </div>
+                    </div>
+                    <div class="blocao blocao-2">
+                        <div class="bloquinho bloquinho-5">
+                            <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                            <span>To Talk</span>
+                        </div>
+                        <div class="bloquinho bloquinho-6">
+                            <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
+                            <span>Programing</span>
+                        </div>
+                        <div class="bloquinho bloquinho-7">
+                            <span class="icon"><i class="fa-solid fa-clapperboard"></i></span>
+                            <span>Movies</span>
+                        </div>
+                        <div class="bloquinho bloquinho-8">
+                            <span class="icon"><i class="fa-solid fa-burger"></i></span>
+                            <span>Food</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
+    <!--
+                    <nav class="redes-sociais link-1">
+                <ul>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-github"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+                    </li>
+                    <li>
+                        <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+                    </li>
+                </ul>
+            </nav>
+    -->
+
+    <script src="./assets/js/script.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>

@@ -5,14 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- LINKS CSS -->
+
     <title>Jean Pedro | Portfolio</title>
 </head>
 <body>
     
-
+    <!-- PRIMEIRA PARTE - CABECALHO -->
     <header>
+        <!-- CABECALHO -->
         <div class="links-header">
             <nav class="links-internos link-1">
                 <ul>
@@ -31,15 +37,17 @@
                 </ul>
             </nav>
             <div class="logo">
-                <h2>J.P</h2>
+                <h2><i class="fa-regular fa-face-meh"></i></h2>
             </div>
         </div>
+        <!-- FIM CABECALHO -->
 
+        <!-- PARTE PRINCIPAL - HEADER -->
         <div class="principal-header">
             <div class="escrito-header">
-                <span>Hello <span id="icon-colchete"><i class="fa-solid fa-code"></i></span></span>
-                <h1 class="typing">I'm Jean Pedro<span class="typing-animation"></span></h1>
-                <p>Front End Developer</p>
+                <span translate="no">Hello <span id="icon-colchete"><i class="fa-solid fa-code"></i></span></span>
+                <h1 class="typing" translate="no">I'm Jean Pedro<span class="typing-animation"></span></h1>
+                <p translate="no">Front End Developer</p>
                 <a href="assets/Curriculo Jean.pdf" class="botao" download>
                     <button><span class="icon-download"><i class="fa-solid fa-download"></i> </span> Download CV</button>
                 </a>
@@ -48,7 +56,9 @@
                 <img src="./assets/img/download20220206212011.png" alt="Avatar do GitHub do Jean Pedro">
             </div>
         </div>
+        <!-- FIM  PARTE PRINCIPAL - HEADER -->
     </header>
+    <!-- FIM PRIMEIRA PARTE - CABECALHO  -->
      
 
     <main>
@@ -65,7 +75,7 @@
                     <div class="texto-descricao">
                         <p><em>Hello my name is Jean Pedro and I'm Front End Developer</em>.I've been studying to be a Front End Developer for 5 months, I'm still at the beginning of my long journey. But I'm always attentive to learn new things and new technologies.</p>
                         <p>I learned everything I know through online courses, but I intend to do <em>Systems Development Analysis</em> after finishing high school.</p>
-                        <p>I've already learned HTML and CSS, I've done several projects with these technologies, and I'm currently studying JavaScript. After learning JavaScript I intend to learn React</p>
+                        <p>I've already learned HTML, CSS and Bootstrap, I've done several projects with these technologies, and I'm currently studying JavaScript. After learning JavaScript I intend to learn React</p>
                     </div>
                 </div>
             </div>
@@ -105,11 +115,11 @@
                             </div>
                             <div class="bloquinho bloquinho-3">
                                 <span class="icon"><i class="fa-solid fa-futbol"></i></span>
-                                <span>Futebol</span>
+                                <span translate="no">Futebol</span>
                             </div>
                             <div class="bloquinho bloquinho-4">
                                 <span class="icon"><i class="fa-solid fa-book-journal-whills"></i></span>
-                                <span>HQ</span>
+                                <span translate="no">HQ</span>
                             </div>
                         </div>
                         <div class="blocao blocao-2">
@@ -140,30 +150,76 @@
                 <h2>Skills <i class="fa-solid fa-square-poll-horizontal"></i></h2>
                 <hr>
             </div>
-            <div class="conteudo-secundary">
-                <div class="container-secundary">
-                    <div class="skills">
-                        <span class="nome-skill-1">HTML</span>
-                        <div class="barra-progresso skill-1">
-                            <p class="oitenta"><span>80</span></p>
+            
+            <div class="secundary-main">
+                <div class="conteudo-secundary">
+                    <div class="titulo-main-skill">
+                        <h2>Main Skills</h2>
+                    </div>
+                    <div class="container-secundary">
+                        <div class="skills">
+                            <span class="numero oito">80</span>
+                            <span class="nome-skill">HTML <i class="devicon-html5-plain colored"></i></span>
+                            <div class="barra-progresso skill-1">
+                                <p class="oitenta"><span></span></p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span class="numero nove">90</span>
+                            <span class="nome-skill">CSS <i class="devicon-css3-plain colored"></i></span>
+                            <div class="barra-progresso">
+                                <p class="noventa"><span></span></p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span class="numero tres">30</span>
+                            <span class="nome-skill">Bootstrap <i class="devicon-bootstrap-plain colored"></i></span>
+                            <div class="barra-progresso">
+                                <p class="trinta"><span></span></p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span class="numero quatro">40</span>
+                            <span class="nome-skill">JavaScript <i class="devicon-javascript-plain colored"></i></span>
+                            <div class="barra-progresso">
+                                <p class="quarenta"><span></span></p>
+                            </div>
                         </div>
                     </div>
-                    <div class="skills">
-                        <span>CSS</span>
-                        <div class="barra-progresso">
-                            <p>90%</p>
-                        </div>
+                </div>
+    
+                <div class="conteudo-secundary">
+                    <div class="titulo-main-skill">
+                        <h2>Other Skills</h2>
                     </div>
-                    <div class="skills">
-                        <span>Bootstrap</span>
-                        <div class="barra-progresso">
-                            <p>30%</p>
+                    <div class="container-secundary">
+                        <div class="skills">
+                            <span class="numero seis">60</span>
+                            <span class="nome-skill">Creativity</span>
+                            <div class="barra-progresso">
+                                <p class="sessenta"><span></span></p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="skills">
-                        <span>JavaScript</span>
-                        <div class="barra-progresso">
-                            <p>40%</p>
+                        <div class="skills">
+                            <span class="numero oito">80</span>
+                            <span class="nome-skill">Tolerance</span>
+                            <div class="barra-progresso">
+                                <p class="oitenta"><span></span></p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span class="numero sete">70</span>
+                            <span class="nome-skill">Emotional intelligence</span>
+                            <div class="barra-progresso">
+                                <p class="setenta"><span></span></p>
+                            </div>
+                        </div>
+                        <div class="skills">
+                            <span class="numero sete">70</span>
+                            <span class="nome-skill">Active Learning</span>
+                            <div class="barra-progresso">
+                                <p class="setenta"><span></span></p>
+                            </div>
                         </div>
                     </div>
                 </div>

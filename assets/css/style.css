@@ -47,19 +47,34 @@ header ul {
 .logo h2 {
     font-size: 50px;
     color: #03045E;
+    animation: logoAnimation 6s linear 0s infinite normal forwards;
 }
 
-.logo i {
-    animation: h2Rotate 3s linear 0s infinite normal forwards;
-}
-
-@keyframes h2Rotate {
-    0% {
-      transform: rotate(0);
+@keyframes logoAnimation {
+    0%,
+    100% {
+      transform: translateY(0);
     }
   
-    100% {
-      transform: rotate(360deg);
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateY(-8px);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: translateY(8px);
+    }
+  
+    80% {
+      transform: translateY(6.4px);
+    }
+  
+    90% {
+      transform: translateY(-6.4px);
     }
   }
 
@@ -399,13 +414,29 @@ header ul {
     border: none;
 }
 
+.secundary-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
 .conteudo-secundary {
     width: 60%;
     height: 400px;
     margin-bottom: 80px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.titulo-main-skill h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0E1F2C;
+    border-bottom: 3px solid #0E1F2C;
 }
 
 .container-secundary {
@@ -415,6 +446,7 @@ header ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transform: scale(0.90);
 }
 
 .skills {
@@ -427,22 +459,28 @@ header ul {
     border-radius: 8px;
 }
 
-.skills span {
+.skills .nome-skill{
     font-family: 'Fredoka', sans-serif;
     font-size: 24px;
     font-weight: 300;
     color: #000C42;
     padding-left: 20px;
+    margin-bottom: 15px;
 }
 
 .skills .barra-progresso {
-    width: 80%;
+    width: 100%;
     height: 10px;
     margin-left: 20px;
     border-radius: 20px;
     display: flex;
     align-items: center;
     background-color: #0E1F2C;
+    transition: 0.5s;
+}
+
+.skills .barra-progresso:hover {
+    transform: scale(1.05);
 }
 
 .barra-progresso p {
@@ -456,15 +494,75 @@ header ul {
 
 .barra-progresso span{
     height: 40px;
-    width: 20px;
+    width: 40px;
     background-color: #2ec4b6;
     color: #fff;
     border-radius: 100%;
-    font-size: 10px;
     transform: scale(0.75);
     position: relative;
     right: -20px;
 }
+
+.skills .numero {
+    position: relative;
+    z-index: 1000;
+}
+
+.skills .oito {
+    right: -349px;
+    top: 60px;
+    font-size: 20px;
+    color: #000;
+}
+
+.skills .nove {
+    right: -391px;
+    top: 60px;
+    font-size: 20px;
+    color: #000;
+}
+
+.skills .tres {
+    right: -137px;
+    top: 60px;
+    font-size: 20px;
+    color: #000;
+}
+
+.skills .quatro {
+    right: -178px;
+    top: 60px;
+    font-size: 20px;
+    color: #000;
+}
+
+/* PORCENTAGENS */
+
+.barra-progresso .oitenta {
+    width: 80%;
+}
+
+.barra-progresso .noventa {
+    width: 90%;
+}
+
+.barra-progresso .trinta {
+    width: 30%;
+}
+
+.barra-progresso .quarenta {
+    width: 40%;
+}
+
+.barra-progresso .sessenta {
+    width: 60%;
+}
+
+.barra-progresso .setenta {
+    width: 70%;
+}
+
+/* FIM PORCENTAGENS */
 
 /**** SCROLL REVEAL ***/
 

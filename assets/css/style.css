@@ -390,7 +390,7 @@ header ul {
     width: 100%;
 }
 
-.titulo-secundary {
+.titulo-secundary, .titulo-resume {
     margin-top: 50px;
     margin-bottom: 120px;
     display: flex;
@@ -398,7 +398,7 @@ header ul {
     align-items: center;
 }
 
-.titulo-secundary h2{
+.titulo-secundary h2, .titulo-resume h2{
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
@@ -407,7 +407,7 @@ header ul {
     margin-bottom: 5px;
 }
 
-.titulo-secundary hr {
+.titulo-secundary hr, .titulo-resume hr{
     width: 100px;
     height: 3px;
     background-color: #0E1F2C;
@@ -424,7 +424,7 @@ header ul {
 .conteudo-secundary {
     width: 60%;
     height: 400px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -503,39 +503,6 @@ header ul {
     right: -20px;
 }
 
-.skills .numero {
-    position: relative;
-    z-index: 1000;
-}
-
-.skills .oito {
-    right: -349px;
-    top: 60px;
-    font-size: 20px;
-    color: #000;
-}
-
-.skills .nove {
-    right: -391px;
-    top: 60px;
-    font-size: 20px;
-    color: #000;
-}
-
-.skills .tres {
-    right: -137px;
-    top: 60px;
-    font-size: 20px;
-    color: #000;
-}
-
-.skills .quatro {
-    right: -178px;
-    top: 60px;
-    font-size: 20px;
-    color: #000;
-}
-
 /* PORCENTAGENS */
 
 .barra-progresso .oitenta {
@@ -564,9 +531,10 @@ header ul {
 
 /* FIM PORCENTAGENS */
 
+
 /**** SCROLL REVEAL ***/
 
-.introducao-main, .personal-details, .interests{
+.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary{
     visibility: hidden;
 }
 

@@ -7,6 +7,11 @@
     font-family: sans-serif;
 }
 
+
+
+
+
+/* INICIO HEADER */
 header {
     display: flex;
     flex-direction: column;
@@ -171,6 +176,8 @@ header ul {
 }
 
 /*** FIM HEADER ***/
+
+
 
 
 
@@ -390,15 +397,16 @@ header ul {
     width: 100%;
 }
 
-.titulo-secundary, .titulo-resume {
+.titulo-secundary{
     margin-top: 50px;
     margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 50%;
 }
 
-.titulo-secundary h2, .titulo-resume h2{
+.titulo-secundary h2{
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
@@ -407,7 +415,7 @@ header ul {
     margin-bottom: 5px;
 }
 
-.titulo-secundary hr, .titulo-resume hr{
+.titulo-secundary hr{
     width: 100px;
     height: 3px;
     background-color: #0E1F2C;
@@ -530,6 +538,68 @@ header ul {
 }
 
 /* FIM PORCENTAGENS */
+
+
+/* FIM SEGUNDA PARTE */
+
+
+
+
+
+/* INICIO TERCEIRA PARTE */
+
+.third-part {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A374D;
+}
+
+.titulo-third {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.titulo-third h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #B1D0E0;
+    margin-bottom: 20px;
+}
+
+.titulo-third h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: #2ec4b6;
+    font-weight: 300;
+    color: #DBE9F0;
+}
+
+.container-third {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    transform: scale(0.90);
+}
+
+.bloco-projetos {
+    height: 100%;
+    width: 30%;
+    background-color: #B1D0E0;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 
 /**** SCROLL REVEAL ***/

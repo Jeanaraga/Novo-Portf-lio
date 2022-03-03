@@ -11,7 +11,11 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+<<<<<<< Updated upstream
     background: #CAF0F8;
+=======
+    background: #001219;
+>>>>>>> Stashed changes
     width: 100%;
     height: 100vh;
 }
@@ -23,30 +27,39 @@ header ul {
 
 .links-header {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    height: 20%;
+    height: 70px;
+    margin-bottom: 80px;
 }
 
-.link-1 a {
-    color: #03045E;
+.links-internos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.links-internos a{
     text-decoration: none;
-    margin-right: 30px;
+    color: #edf2fb;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 300;
-    padding: 5px 5px;
-    border-radius: 2px;
 }
 
-.link-1 a:hover {
-    border-bottom: 2px solid #03045E;
+.links-internos a:hover {
+    color: #a1ff0a;
 }
 
 .logo h2 {
     font-size: 50px;
+<<<<<<< Updated upstream
     color: #03045E;
+=======
+    color: #a1ff0a;
+    animation: logoAnimation 6s linear 0s infinite normal forwards;
+>>>>>>> Stashed changes
 }
 
 .principal-header {
@@ -54,34 +67,40 @@ header ul {
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 60%;
+    margin-bottom: 100px;
 }
 
 .escrito-header {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    color:#003B47;
-    width: 400px;
+    font-size: 40px;
+    color:#edf2fb;
+    width: 80%;
 }
 
 #icon-colchete {
-    color: #03045E;
+    color: #a1ff0a;
 }
 
 .escrito-header h1 {
-    color: #03045E;
-    font-size: 50px;
+    color: #a1ff0a;
+    font-size: 80px;
     padding-right: 2px;
     white-space: nowrap;
     overflow: hidden;
 }
 
 .typing-animation {
+<<<<<<< Updated upstream
     animation: myAnim 0.8s ease 0s 20 normal forwards;
     border-right: 2px solid #03045E; 
+=======
+    animation: myAnim 0.8s ease 0s infinite normal forwards;
+    border-right: 2px solid #a1ff0a; 
+>>>>>>> Stashed changes
 }
 
 .typing {
@@ -93,7 +112,7 @@ header ul {
         width: 0;
     }
     to {
-        width: 450px;
+        width: 700px;
     }
 }
 
@@ -111,8 +130,8 @@ header ul {
     height: 50px;
     width: 200px;
     cursor: pointer;
-    background-color: #03045E;
-    color: #CAF0F8;
+    background-color: #a1ff0a;
+    color: #000000;
     border: none;
     border-radius: 4px;
     font-family: 'Raleway', sans-serif;
@@ -121,10 +140,11 @@ header ul {
 }
 
 .botao button:hover {
-    background-color: rgba(1, 1, 97, 0.774);
+    background-color: #a1ff0a9d;
 }
 
 .imagem-header {
+    display: none;
     width: 300px;
 }
 
@@ -132,13 +152,14 @@ header ul {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 2px solid #03045E;
+    border: 2px solid #a1ff0a;
     box-shadow: -1px 5px 100px 1px #000;
     transition: 0.5s;
+    transform: scale(0.85);
 }
 
 .imagem-header img:hover{
-    transform: scale(1.05);
+    transform: scale(1);
 }
 
 /*** FIM HEADER ***/
@@ -147,8 +168,15 @@ header ul {
 
 
 
+<<<<<<< Updated upstream
 main {
     background-color: #1A374D;
+=======
+
+/* PRIMEIRA PARTE MAIN */
+.main {
+    background-color: #001219;
+>>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
 }
@@ -163,19 +191,20 @@ main {
     width: 100%;
 }
 
+
 .titulo h2{
-    border-bottom: 3px solid #B1D0E0;
+    border-bottom: 3px solid #edf2fb;
     font-size: 50px;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
-    color: #B1D0E0;
+    color: #edf2fb;
 }
 
 .titulo .barra{
     border: none;
-    background-color: #B1D0E0;
-    color: #B1D0E0;
+    background-color: #edf2fb;
+    color: #edf2fb;
     width: 180px;
     height: 3px;
     margin: 0 auto;
@@ -188,6 +217,7 @@ main {
 .descricao {
     width: 100%;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
 }
@@ -216,11 +246,12 @@ main {
     margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: #DBE9F0;
+    color: #edf2fb;
 }
 
 .descricao em {
     font-weight: bold;
+    color: #34CBFE;
 }
 
 .outros-main {
@@ -243,7 +274,7 @@ main {
 .titulo-detalhes h2 {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #DBE9F0;
+    color: #edf2fb;
     font-weight: 500;
     text-align: center;
 }
@@ -260,12 +291,12 @@ main {
     gap: 20px;
     list-style: none;
     padding-right: 40px;
-    border-right: 2px solid #DBE9F0;
+    border-right: 2px solid #edf2fb;
 }
 
 .items-detalhes  li {
-    color: #1A374D;
-    background-color: #DBE9F0;
+    color: #001219;
+    background-color: #34CBFE;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -282,7 +313,7 @@ main {
 }
 
 .info-detalhes li {
-    color: #DBE9F0;
+    color: #edf2fb;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -302,7 +333,7 @@ main {
 .titulo-interesses h2{
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #DBE9F0;
+    color: #edf2fb;
     font-weight: 500;
     text-align: center;
     margin-bottom: 40px;
@@ -323,7 +354,7 @@ main {
 .bloquinho {
     height: 120px;
     width: 22%;
-    background-color:  #DBE9F0;
+    background-color:  #34CBFE;
     border-radius: 10%;
     box-shadow: -1px -1px 91px 0px #000;
     display: flex;
@@ -340,13 +371,234 @@ main {
 }
 
 .bloquinho span {
-    color: #1A374D;
+    color: #001219;
     font-size: 24px;
     font-weight: bold;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
+/* FIM PRIMEIRA PARTE MAIN */
+
+
+
+
+/* INICIO SEGUNDA PARTE MAIN */
+.secundary {
+    background-color: #001219;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo-secundary{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.titulo-secundary h2{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #edf2fb;
+    border-bottom: 3px solid #edf2fb;
+    margin-bottom: 5px;
+}
+
+.titulo-secundary hr{
+    width: 100px;
+    height: 3px;
+    background-color: #edf2fb;
+    border: none;
+}
+
+.secundary-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.conteudo-secundary {
+    width: 60%;
+    height: 400px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-main-skill h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #edf2fb;
+    border-bottom: 3px solid #edf2fb;
+}
+
+.container-secundary {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: scale(0.90);
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 70%;
+    height: 20%;
+    border-radius: 8px;
+}
+
+.skills .nome-skill{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #edf2fb;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.skills .barra-progresso {
+    width: 100%;
+    height: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #edf2fb;
+    transition: 0.5s;
+}
+
+.skills .barra-progresso:hover {
+    transform: scale(1.05);
+}
+
+.barra-progresso p {
+    width: 50%;
+    height: 100%;
+    background-color: #a1ff0a;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.barra-progresso span{
+    height: 40px;
+    width: 40px;
+    background-color: #a1ff0a;
+    color: #fff;
+    border-radius: 100%;
+    transform: scale(0.75);
+    position: relative;
+    right: -20px;
+}
+
+/* PORCENTAGENS */
+
+.barra-progresso .oitenta {
+    width: 80%;
+}
+
+.barra-progresso .noventa {
+    width: 90%;
+}
+
+.barra-progresso .trinta {
+    width: 30%;
+}
+
+.barra-progresso .quarenta {
+    width: 40%;
+}
+
+.barra-progresso .sessenta {
+    width: 60%;
+}
+
+.barra-progresso .setenta {
+    width: 70%;
+}
+
+/* FIM PORCENTAGENS */
+
+
+/* FIM SEGUNDA PARTE */
+
+
+
+
+
+/* INICIO TERCEIRA PARTE */
+
+.third-part {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #001219;
+}
+
+.titulo-third {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.titulo-third h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #edf2fb;
+    margin-bottom: 20px;
+}
+
+.titulo-third h4 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 30px;
+    color: #2ec4b6;
+    font-weight: 300;
+    color: #edf2fb;
+}
+
+.container-third {
+    width: 90%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    transform: scale(0.90);
+}
+
+.bloco-projetos {
+    height: 100%;
+    width: 30%;
+    background-color: #edf2fb;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
 /**** SCROLL REVEAL ***/
 

@@ -19,26 +19,28 @@
     <!-- PRIMEIRA PARTE - CABECALHO -->
     <header>
         <!-- CABECALHO -->
-        <div class="links-header">
-            <nav class="links-internos link-1">
+        <div class="cabecalho">
+
+            <div class="logo">
+                <h2>Jeanaraga</h2>
+            </div>
+
+            <nav class="links-internos">
                 <ul>
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#about" class="hvr-underline-from-left link">About</a>
                     </li>
                     <li>
-                        <a href="#skills">Skills</a>
+                        <a href="#skills" class="hvr-underline-from-left link">Skills</a>
                     </li>
                     <li>
-                        <a href="#">Projects</a>
+                        <a href="#" class="hvr-underline-from-left link">Projects</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="" class="hvr-underline-from-left link">Contact</a>
                     </li>
                 </ul>
             </nav>
-            <div class="logo">
-                <h2><i class="fa-regular fa-face-meh"></i></h2>
-            </div>
         </div>
         <!-- FIM CABECALHO -->
 
@@ -48,12 +50,12 @@
                 <span translate="no">Hello <span id="icon-colchete"><i class="fa-solid fa-code"></i></span></span>
                 <h1 class="typing" translate="no">I'm Jean Pedro<span class="typing-animation"></span></h1>
                 <p translate="no">Front End Developer</p>
-                <a href="assets/Curriculo Jean.pdf" class="botao" download>
+                <a href="assets/Curriculo Jean.pdf" class="botao hvr-bounce-to-right" download>
                     <button><span class="icon-download"><i class="fa-solid fa-download"></i> </span> Download CV</button>
                 </a>
             </div>
             <div class="imagem-header">
-                <img src="./assets/img/download20220206212011.png" alt="Avatar do GitHub do Jean Pedro">
+                <img src="./assets/img/Code typing-bro.png" alt="Rapaz mexendo no computador">
             </div>
         </div>
         <!-- FIM  PARTE PRINCIPAL - HEADER -->
@@ -70,7 +72,7 @@
                 </div>
                 <div class="descricao">
                     <div class="img-descricao">
-                        <img src="./assets/img/Imagem-perfil-github.png" alt="">
+                        <img src="./assets/img/Data analysis-amico.png" alt="Rapaz analisando dados">
                     </div>
                     <div class="texto-descricao">
                         <p><em>Hello my name is Jean Pedro and I'm Front End Developer</em>.I've been studying to be a Front End Developer for 5 months, I'm still at the beginning of my long journey. But I'm always attentive to learn new things and new technologies.</p>
@@ -80,64 +82,67 @@
                 </div>
             </div>
             <div class="outros-main">
-                <div class="personal-details">
-                    <div class="titulo-detalhes">
-                        <h2>Personal Details</h2>
-                    </div>
-                    <div class="detalhes">
-                        <ul class="items-detalhes">
-                            <li class="item-p">Birthday</li>
-                            <li class="item-p">Phone</li>
-                            <li class="item-p">Address</li>
-                            <li class="item-p">Occupation</li>
-                        </ul>
-                        <ul class="info-detalhes">
-                            <li>04/03/2005</li>
-                            <li>+55 (37) 9 9128-8953</li>
-                            <li>Divinópolis, MG - Brazil</li>
-                            <li>Student</li>
-                        </ul>
-                    </div>  
-                </div>
-                <div class="interests">
-                    <div class="titulo-interesses">
-                        <h2>My Interets</h2>
-                    </div>
-                    <div class="container-interesses">
-                        <div class="blocao blocao-1">
-                            <div class="bloquinho bloquinho-1">
-                                <span class="icon"><i class="fa-solid fa-gamepad"></i></span>
-                                <span>Game</span>
-                            </div>
-                            <div class="bloquinho bloquinho-2">
-                                <span class="icon"><i class="fa-solid fa-music"></i></span>
-                                <span>Music</span>
-                            </div>
-                            <div class="bloquinho bloquinho-3">
-                                <span class="icon"><i class="fa-solid fa-futbol"></i></span>
-                                <span translate="no">Futebol</span>
-                            </div>
-                            <div class="bloquinho bloquinho-4">
-                                <span class="icon"><i class="fa-solid fa-book-journal-whills"></i></span>
-                                <span translate="no">HQ</span>
-                            </div>
+                <div class="container-outros">
+                    <div class="personal-details">
+                        <div class="titulo-detalhes">
+                            <h2>Personal Details</h2>
                         </div>
-                        <div class="blocao blocao-2">
-                            <div class="bloquinho bloquinho-5">
-                                <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
-                                <span>To Talk</span>
+                        <div class="detalhes">
+                            <ul class="items-detalhes">
+                                <li class="item-p">Birthday</li>
+                                <li class="item-p">Phone</li>
+                                <li class="item-p">Address</li>
+                                <li class="item-p">Occupation</li>
+                            </ul>
+                            <ul class="info-detalhes">
+                                <li>04/03/2005</li>
+                                <li>+55 (37) 9 9128-8953</li>
+                                <li>Divinópolis, MG - Brazil</li>
+                                <li>Student</li>
+                            </ul>
+                        </div>  
+                    </div>
+
+                    <div class="interests">
+                        <div class="titulo-interesses">
+                            <h2>My Interets</h2>
+                        </div>
+                        <div class="container-interesses">
+                            <div class="blocao blocao-1">
+                                <div class="bloquinho bloquinho-1">
+                                    <span class="icon"><i class="fa-solid fa-gamepad"></i></span>
+                                    <span>Game</span>
+                                </div>
+                                <div class="bloquinho bloquinho-2">
+                                    <span class="icon"><i class="fa-solid fa-music"></i></span>
+                                    <span>Music</span>
+                                </div>
+                                <div class="bloquinho bloquinho-3">
+                                    <span class="icon"><i class="fa-solid fa-futbol"></i></span>
+                                    <span translate="no">Futebol</span>
+                                </div>
+                                <div class="bloquinho bloquinho-4">
+                                    <span class="icon"><i class="fa-solid fa-book-journal-whills"></i></span>
+                                    <span translate="no">HQ</span>
+                                </div>
                             </div>
-                            <div class="bloquinho bloquinho-6">
-                                <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
-                                <span>Programing</span>
-                            </div>
-                            <div class="bloquinho bloquinho-7">
-                                <span class="icon"><i class="fa-solid fa-clapperboard"></i></span>
-                                <span>Movies</span>
-                            </div>
-                            <div class="bloquinho bloquinho-8">
-                                <span class="icon"><i class="fa-solid fa-burger"></i></span>
-                                <span>Food</span>
+                            <div class="blocao blocao-2">
+                                <div class="bloquinho bloquinho-5">
+                                    <span class="icon"><i class="fa-solid fa-comment-dots"></i></span>
+                                    <span>To Talk</span>
+                                </div>
+                                <div class="bloquinho bloquinho-6">
+                                    <span class="icon"><i class="fa-solid fa-laptop-code"></i></span>
+                                    <span>Programing</span>
+                                </div>
+                                <div class="bloquinho bloquinho-7">
+                                    <span class="icon"><i class="fa-solid fa-clapperboard"></i></span>
+                                    <span>Movies</span>
+                                </div>
+                                <div class="bloquinho bloquinho-8">
+                                    <span class="icon"><i class="fa-solid fa-burger"></i></span>
+                                    <span>Food</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -146,12 +151,12 @@
         </section>
 
         <section class="secundary">
-            <div class="titulo-secundary">
+            <div class="titulo-secundary" id="skills">
                 <h2>Skills <i class="fa-solid fa-square-poll-horizontal"></i></h2>
                 <hr>
             </div>
             
-            <div class="secundary-main" id="skills">
+            <div class="secundary-main">
                 <div class="conteudo-secundary">
                     <div class="titulo-main-skill">
                         <h2>Main Skills</h2>
@@ -225,27 +230,13 @@
                 <h4>Some of my main projects <i class="fa-solid fa-terminal"></i></h4>
             </div>
 			<div class="container-third">
-				<div class="bloco-projetos">
-
-				</div>
-				<div class="bloco-projetos">
-					
-				</div>
-				<div class="bloco-projetos">
-					
-				</div>
+				
 			</div>
+
 			<div class="container-third">
-				<div class="bloco-projetos">
-
-				</div>
-				<div class="bloco-projetos">
-					
-				</div>
-				<div class="bloco-projetos">
-					
-				</div>
+				
 			</div>
+
         </section>
     </main>
     

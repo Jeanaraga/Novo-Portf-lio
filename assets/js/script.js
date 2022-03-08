@@ -9,3 +9,16 @@ ScrollReveal().reveal('.titulo-secundary', { delay: 500 });
 ScrollReveal().reveal('.conteudo-secundary', { delay: 800 });
 
 
+function buttons () {
+    var tituloProjeto = document.getElementById('titulo-projeto')
+    tituloProjeto.classList.add('sair')
+}
+
+function buttonsNo () {
+    var tituloProjeto = document.getElementById('titulo-projeto')
+    tituloProjeto.classList.remove('sair') 
+}
+
+var tituloProjeto = document.getElementById('titulo-projeto')
+
+tituloProjeto.addEventListener('mouseenter',buttons)

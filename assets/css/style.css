@@ -42,7 +42,7 @@ header ul {
 }
 
 .link {
-    color: #D8F5FD;
+    color: #f6fcef;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -84,7 +84,7 @@ header ul {
 .logo h2 {
     font-size: 30px;
     font-weight: 400;
-    color: #D8F5FD;
+    color: #f6fcef;
 }
 
 .logo span {
@@ -107,7 +107,7 @@ header ul {
     gap: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
-    color:#D8F5FD;
+    color:#f6fcef;
     width: 50%;
 }
 
@@ -182,7 +182,7 @@ header ul {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #D8F5FD;
+    color: #f6fcef;
    }
    
    .cta svg {
@@ -262,18 +262,18 @@ header ul {
 }
 
 .titulo h2{
-    border-bottom: 3px solid #D8F5FD;
+    border-bottom: 3px solid #f6fcef;
     font-size: 50px;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
-    color: #D8F5FD;
+    color: #f6fcef;
 }
 
 .titulo .barra{
     border: none;
-    background-color: #D8F5FD;
-    color: #D8F5FD;
+    background-color: #f6fcef;
+    color: #f6fcef;
     width: 180px;
     height: 3px;
     margin: 0 auto;
@@ -315,7 +315,7 @@ header ul {
     margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: #D8F5FD;
+    color: #f6fcef;
 }
 
 .descricao em {
@@ -350,7 +350,7 @@ header ul {
 .titulo-detalhes h2 {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #D8F5FD;
+    color: #f6fcef;
     font-weight: 500;
     text-align: center;
 }
@@ -367,13 +367,13 @@ header ul {
     align-items: flex-start;
     justify-content: space-between;
     list-style: none;
-    border-right: 2px solid #D8F5FD;
+    border-right: 2px solid #f6fcef;
     width: 40%;
 }
 
 .items-detalhes  li {
     color: #141012;
-    background-color:   #D8F5FD;
+    background-color:   #f6fcef;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -392,7 +392,7 @@ header ul {
 }
 
 .info-detalhes li {
-    color: #D8F5FD;
+    color: #f6fcef;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -412,7 +412,7 @@ header ul {
 .titulo-interesses h2{
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #D8F5FD;
+    color: #f6fcef;
     font-weight: 500;
     text-align: center;
 }
@@ -432,7 +432,7 @@ header ul {
 .bloquinho {
     height: 120px;
     width: 22%;
-    background-color:  #D8F5FD;
+    background-color:  #f6fcef;
     border-radius: 10%;
     box-shadow: -1px -1px 91px 0px #000;
     display: flex;
@@ -483,15 +483,15 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
-    color: #D8F5FD;
-    border-bottom: 3px solid #D8F5FD;
+    color: #f6fcef;
+    border-bottom: 3px solid #f6fcef;
     margin-bottom: 5px;
 }
 
 .titulo-secundary hr{
     width: 100px;
     height: 3px;
-    background-color: #D8F5FD;
+    background-color: #f6fcef;
     border: none;
 }
 
@@ -516,8 +516,8 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
     font-weight: 400;
-    color: #D8F5FD;
-    border-bottom: 3px solid #D8F5FD;
+    color: #f6fcef;
+    border-bottom: 3px solid #f6fcef;
 }
 
 .container-secundary {
@@ -544,7 +544,7 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 24px;
     font-weight: 300;
-    color: #D8F5FD;
+    color: #f6fcef;
     padding-left: 20px;
     margin-bottom: 15px;
 }
@@ -556,7 +556,7 @@ header ul {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    background-color: #D8F5FD;
+    background-color: #f6fcef;
     transition: 0.5s;
 }
 
@@ -640,7 +640,7 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
-    color: #D8F5FD;
+    color: #f6fcef;
     margin-bottom: 20px;
 }
 
@@ -664,7 +664,7 @@ header ul {
 }
 
 .img-third {
-    width: 40%;
+    width: 36%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -683,11 +683,53 @@ header ul {
     border-radius: 5px;
     box-shadow: 5px 5px 23px 6px rgba(10, 10, 10, 0.801);
     transition: 0.5s;
+    margin: 0 auto;
 }
 
 .imagem-third img:hover {
     transform: scale(1.05);
 }
+
+/* From cssbuttons.io by @meermubashar */
+.button {
+    width: 140px;
+    height: 45px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #f6fcef;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+   }
+   
+   .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #B3FF00;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   .button:hover::before {
+    width: 100%;
+   }
+   
+   .button:hover {
+    color: black;
+   }
+   
+   .button:active:before {
+    background: #b9b9b9;
+   }
 
 
 
@@ -726,7 +768,7 @@ header ul {
   }
 
 .descricao-third span {
-    color: #D8F5FD;
+    color: #f6fcef;
     font-size: 30px;
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
@@ -736,7 +778,7 @@ header ul {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    color: #D8F5FD;
+    color: #f6fcef;
     text-align: center;
 }
 
@@ -749,6 +791,11 @@ header ul {
 
 .linguagens li {
     font-size: 50px;
+    transition: 0.5s;
+}
+
+.linguagens li:hover {
+    transform: scale(1.2);
 }
 
 .sair {
@@ -764,7 +811,7 @@ header ul {
 
 /**** SCROLL REVEAL ***/
 
-.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary{
+.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary, .container-third{
     visibility: hidden;
 }
 

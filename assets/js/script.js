@@ -8,4 +8,5 @@ ScrollReveal().reveal('.interests', { delay: 900 });
 ScrollReveal().reveal('.titulo-secundary', { delay: 500 });
 ScrollReveal().reveal('.conteudo-secundary', { delay: 800 });
 
+ScrollReveal().reveal('.container-third', { delay: 400 });
 

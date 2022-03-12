@@ -42,7 +42,7 @@ header ul {
 }
 
 .link {
-    color: #f6fcef;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
@@ -67,7 +67,7 @@ header ul {
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #B3FF00;
+    background: #2ec4b6;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -84,7 +84,7 @@ header ul {
 .logo h2 {
     font-size: 30px;
     font-weight: 400;
-    color: #f6fcef;
+    color: #ffffff;
 }
 
 .logo span {
@@ -107,16 +107,16 @@ header ul {
     gap: 20px;
     font-family: 'Raleway', sans-serif;
     font-size: 50px;
-    color:#f6fcef;
+    color:#ffffff;
     width: 50%;
 }
 
 #icon-colchete {
-    color: #B3FF00;
+    color: #2ec4b6;
 }
 
 .escrito-header h1 {
-    color: #B3FF00;
+    color: #2ec4b6;
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     font-size: 80px;
@@ -127,7 +127,7 @@ header ul {
 
 .typing-animation {
     animation: myAnim 0.8s ease 0s infinite normal forwards;
-    border-right: 2px solid #B3FF00; 
+    border-right: 2px solid #2ec4b6; 
 }
 
 .typing {
@@ -182,7 +182,7 @@ header ul {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.05em;
-    color: #f6fcef;
+    color: #ffffff;
    }
    
    .cta svg {
@@ -192,7 +192,7 @@ header ul {
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #B3FF00;
+    stroke: #2ec4b6;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
@@ -262,18 +262,18 @@ header ul {
 }
 
 .titulo h2{
-    border-bottom: 3px solid #f6fcef;
+    border-bottom: 3px solid #ffffff;
     font-size: 50px;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
-    color: #f6fcef;
+    color: #ffffff;
 }
 
 .titulo .barra{
     border: none;
-    background-color: #f6fcef;
-    color: #f6fcef;
+    background-color: #ffffff;
+    color: #ffffff;
     width: 180px;
     height: 3px;
     margin: 0 auto;
@@ -315,12 +315,12 @@ header ul {
     margin-bottom: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    color: #f6fcef;
+    color: #ffffff;
 }
 
 .descricao em {
     font-weight: bold;
-    color: #B3FF00;
+    color: #2ec4b6;
 }
 
 .outros-main {
@@ -350,7 +350,7 @@ header ul {
 .titulo-detalhes h2 {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #f6fcef;
+    color: #ffffff;
     font-weight: 500;
     text-align: center;
 }
@@ -367,13 +367,13 @@ header ul {
     align-items: flex-start;
     justify-content: space-between;
     list-style: none;
-    border-right: 2px solid #f6fcef;
+    border-right: 2px solid #ffffff;
     width: 40%;
 }
 
 .items-detalhes  li {
     color: #141012;
-    background-color:   #f6fcef;
+    background-color:   #ffffff;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -392,7 +392,7 @@ header ul {
 }
 
 .info-detalhes li {
-    color: #f6fcef;
+    color: #ffffff;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
@@ -412,7 +412,7 @@ header ul {
 .titulo-interesses h2{
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #f6fcef;
+    color: #ffffff;
     font-weight: 500;
     text-align: center;
 }
@@ -432,8 +432,8 @@ header ul {
 .bloquinho {
     height: 120px;
     width: 22%;
-    background-color:  #f6fcef;
-    border-radius: 10%;
+    background-color:  #ffffff;
+    border-radius: 10px;
     box-shadow: -1px -1px 91px 0px #000;
     display: flex;
     flex-direction: column;
@@ -483,15 +483,15 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
-    color: #f6fcef;
-    border-bottom: 3px solid #f6fcef;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
     margin-bottom: 5px;
 }
 
 .titulo-secundary hr{
     width: 100px;
     height: 3px;
-    background-color: #f6fcef;
+    background-color: #ffffff;
     border: none;
 }
 
@@ -516,8 +516,8 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
     font-weight: 400;
-    color: #f6fcef;
-    border-bottom: 3px solid #f6fcef;
+    color: #ffffff;
+    border-bottom: 3px solid #ffffff;
 }
 
 .container-secundary {
@@ -544,7 +544,7 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 24px;
     font-weight: 300;
-    color: #f6fcef;
+    color: #ffffff;
     padding-left: 20px;
     margin-bottom: 15px;
 }
@@ -556,7 +556,7 @@ header ul {
     border-radius: 20px;
     display: flex;
     align-items: center;
-    background-color: #f6fcef;
+    background-color: #ffffff;
     transition: 0.5s;
 }
 
@@ -567,7 +567,7 @@ header ul {
 .barra-progresso p {
     width: 50%;
     height: 100%;
-    background-color: #B3FF00;
+    background-color: #2ec4b6;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -576,7 +576,7 @@ header ul {
 .barra-progresso span{
     height: 40px;
     width: 40px;
-    background-color: #B3FF00;
+    background-color: #2ec4b6;
     color: #fff;
     border-radius: 100%;
     transform: scale(0.75);
@@ -640,14 +640,14 @@ header ul {
     font-family: 'Fredoka', sans-serif;
     font-size: 50px;
     font-weight: 500;
-    color: #f6fcef;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
 .titulo-third h4 {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #B3FF00;
+    color: #cbf3f0;
     font-weight: 300;
 }
 
@@ -657,10 +657,12 @@ header ul {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     border-radius: 20px;
-    box-shadow: 9px 14px 35px 1px #000000 ;
+    box-shadow: rgba(26, 48, 49, 0.678) 0px 20px 30px -10px;
+    border: 0.5px solid #cbf3f0;
     background-color: #383838c2;
+    transform: scale(0.90);
 }
 
 .img-third {
@@ -699,7 +701,7 @@ header ul {
     border: none;
     outline: none;
     background: transparent;
-    color: #f6fcef;
+    color: #ffffff;
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     position: relative;
@@ -714,7 +716,7 @@ header ul {
     left: 0;
     width: 5px;
     height: 100%;
-    background-color: #B3FF00;
+    background-color: #2ec4b6;
     z-index: -1;
     transition: all 0.5s;
    }
@@ -748,9 +750,10 @@ header ul {
     font-size: 30px;
     font-family: 'Fredoka', sans-serif;
     text-align: center;
-    color: #B3FF00;
+    color: #cbf3f0;
     z-index: 1000;
     transition: 0.5s;
+    text-transform: initial;
 }
 
 .descricao-third h1:hover {
@@ -768,7 +771,7 @@ header ul {
   }
 
 .descricao-third span {
-    color: #f6fcef;
+    color: #ffffff;
     font-size: 30px;
     font-family: 'Fredoka', sans-serif;
     font-weight: bold;
@@ -778,7 +781,7 @@ header ul {
     font-size: 24px;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
-    color: #f6fcef;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -811,7 +814,7 @@ header ul {
 
 /**** SCROLL REVEAL ***/
 
-.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary, .container-third{
+.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary, .container-third {
     visibility: hidden;
 }
 

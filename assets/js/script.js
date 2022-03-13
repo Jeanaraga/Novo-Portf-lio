@@ -10,3 +10,4 @@ ScrollReveal().reveal('.conteudo-secundary', { delay: 800 });
 
 ScrollReveal().reveal('.container-third', { delay: 400 });
 
+ScrollReveal().reveal('.container-footer', { delay: 300 });

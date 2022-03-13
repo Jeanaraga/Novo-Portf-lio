@@ -7,6 +7,10 @@
     font-family: sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 
@@ -67,7 +71,7 @@ header ul {
     left: 0;
     right: 100%;
     bottom: 0;
-    background: #2ec4b6;
+    background: #ADFFB4;
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -112,11 +116,11 @@ header ul {
 }
 
 #icon-colchete {
-    color: #2ec4b6;
+    color: #ADFFB4;
 }
 
 .escrito-header h1 {
-    color: #2ec4b6;
+    color: #ADFFB4;
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     font-size: 80px;
@@ -127,7 +131,7 @@ header ul {
 
 .typing-animation {
     animation: myAnim 0.8s ease 0s infinite normal forwards;
-    border-right: 2px solid #2ec4b6; 
+    border-right: 2px solid #ADFFB4; 
 }
 
 .typing {
@@ -192,7 +196,7 @@ header ul {
     fill: none;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke: #2ec4b6;
+    stroke: #ADFFB4;
     stroke-width: 2;
     transform: translateX(-5px);
     transition: all 0.3s ease;
@@ -313,14 +317,14 @@ header ul {
 
 .texto-descricao p{
     margin-bottom: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #ffffff;
 }
 
 .descricao em {
     font-weight: bold;
-    color: #2ec4b6;
+    color: #ADFFB4;
 }
 
 .outros-main {
@@ -375,7 +379,7 @@ header ul {
     color: #141012;
     background-color:   #ffffff;
     padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: bold;
     border-radius: 4px;
@@ -394,7 +398,7 @@ header ul {
 .info-detalhes li {
     color: #ffffff;
     padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     border-radius: 4px;
@@ -452,7 +456,7 @@ header ul {
     color: #141012;
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -567,7 +571,7 @@ header ul {
 .barra-progresso p {
     width: 50%;
     height: 100%;
-    background-color: #2ec4b6;
+    background-color: #ADFFB4;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -576,7 +580,7 @@ header ul {
 .barra-progresso span{
     height: 40px;
     width: 40px;
-    background-color: #2ec4b6;
+    background-color: #ADFFB4;
     color: #fff;
     border-radius: 100%;
     transform: scale(0.75);
@@ -647,7 +651,7 @@ header ul {
 .titulo-third h4 {
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
-    color: #cbf3f0;
+    color: #ADFFB4;
     font-weight: 300;
 }
 
@@ -659,10 +663,14 @@ header ul {
     justify-content: space-around;
     margin-bottom: 150px;
     border-radius: 20px;
-    box-shadow: rgba(26, 48, 49, 0.678) 0px 20px 30px -10px;
-    border: 0.5px solid #cbf3f0;
+    box-shadow: rgba(0, 0, 0, 0.678) 0px 20px 30px -10px;
+    border: 0.25px solid #000a01;
     background-color: #383838c2;
     transform: scale(0.90);
+}
+
+#container-third-3 {
+    margin-bottom: 50px;
 }
 
 .img-third {
@@ -677,6 +685,7 @@ header ul {
 .imagem-third {
     width: 100%;
     height: 60%;
+    text-align: center;
 }
 
 .imagem-third img {
@@ -688,50 +697,13 @@ header ul {
     margin: 0 auto;
 }
 
+.imagem-third #calculadora {
+    width: 50%;
+}
+
 .imagem-third img:hover {
     transform: scale(1.05);
 }
-
-/* From cssbuttons.io by @meermubashar */
-.button {
-    width: 140px;
-    height: 45px;
-    font-size: 23px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #ffffff;
-    font-family: 'Fredoka', sans-serif;
-    font-weight: 500;
-    position: relative;
-    transition: all 0.5s;
-    z-index: 1;
-   }
-   
-   .button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 5px;
-    height: 100%;
-    background-color: #2ec4b6;
-    z-index: -1;
-    transition: all 0.5s;
-   }
-   
-   .button:hover::before {
-    width: 100%;
-   }
-   
-   .button:hover {
-    color: black;
-   }
-   
-   .button:active:before {
-    background: #b9b9b9;
-   }
 
 
 
@@ -749,11 +721,12 @@ header ul {
 .descricao-third h1 {
     font-size: 30px;
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
-    color: #cbf3f0;
+    text-align: start;
+    color: #ADFFB4;
     z-index: 1000;
     transition: 0.5s;
     text-transform: initial;
+    text-shadow: 21px 22px 3px rgba(152, 149, 150, 0.18);
 }
 
 .descricao-third h1:hover {
@@ -773,16 +746,16 @@ header ul {
 .descricao-third span {
     color: #ffffff;
     font-size: 30px;
-    font-family: 'Fredoka', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
 .descricao-third p {
     font-size: 24px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #ffffff;
-    text-align: center;
+    text-align: start;
 }
 
 .linguagens ul{
@@ -805,6 +778,226 @@ header ul {
     overflow: hidden;
 }
 
+.footer-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-third h2 {
+    width: 40%;
+    height: 80%;
+    font-size: 80px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+}
+
+.footer-third a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Fredoka', sans-serif;
+    transition: 0.5s;
+    text-shadow: 50px 28px 2px rgba(152, 149, 150, 0.55);
+}
+
+.footer-third a:hover {
+    color: #ADFFB4;
+    text-decoration: underline;
+}
+
+.footer-third img {
+    width: 30%;
+    height: 80%;
+}
+
+/* FIM PARTE 3 DO SITE */
+
+
+
+
+
+
+
+/* PARTE FINAL DO SITE */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background: #141012;
+}
+
+.titulo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.titulo-footer button {
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 24px;
+    background-color: #ADFFB4;
+    border: none;
+    cursor: pointer;
+}
+
+.titulo-footer h1{
+    font-size: 50px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.container-footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.email-footer {
+    width: 35%;
+    height: 90%;
+    border-right: 2px solid #ADFFB4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-email {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.email-footer span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    width: 60%;
+    text-shadow: 2px 8px 3px rgba(248, 243, 243, 0.082);
+}
+
+.email-footer a{
+    width: 60%;
+}
+
+.botao {
+    width: 100%;
+    height: 70px;
+    font-family: 'Fredoka', sans-serif;
+    background-color: #141012;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid #ADFFB4;
+    transition: 0.5s;
+}
+
+.botao:hover {
+    color: #141012;
+    background-color: #ADFFB4;
+    cursor: pointer;
+    box-shadow: 13px 8px 10px 1px #000;
+    transform: scale(1.03);
+}
+
+.redes-footer {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagem-footer {
+    width: 35%;
+    height: 90%;
+}
+
+.imagem-footer img {
+    width: 100%;
+    height: 100%;
+}
+
+.texto-redes {
+    width: 55%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.titulo-texto h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    border-bottom: 2px solid #ADFFB4;
+}
+
+.listas-redes ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style: none;
+    position: relative;
+    left: 20px;
+}
+
+.listas-redes li, .listas-redes a {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(212, 198, 198);
+}
+
+.listas-redes li:hover, .listas-redes a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.listas-redes .icone {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.listas-redes .preto {
+    color: rgb(161, 160, 160);
+}
+
+.listas-redes .vermelho {
+    color: #f1c0e8;
+}
+
+.listas-redes .azul {
+    color: #219ebc;
+}
+.listas-redes .verde {
+    color: #52b788;
+}
+
+   
+
+
+
 
 
 
@@ -814,7 +1007,7 @@ header ul {
 
 /**** SCROLL REVEAL ***/
 
-.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary, .container-third {
+.introducao-main, .personal-details, .interests, .titulo-secundary, .conteudo-secundary, .container-third, .container-footer {
     visibility: hidden;
 }
 

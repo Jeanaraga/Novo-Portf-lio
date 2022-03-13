@@ -21,7 +21,7 @@
         <!-- CABECALHO -->
         <div class="cabecalho">
 
-            <div class="logo">
+            <div class="logo" id="header">
                 <h2>Jeanaraga</h2>
             </div>
 
@@ -37,7 +37,7 @@
                         <a href="#projects" class="hvr-underline-from-left link">Projects</a>
                     </li>
                     <li>
-                        <a href="" class="hvr-underline-from-left link">Contact</a>
+                        <a href="#contato" class="hvr-underline-from-left link">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -50,7 +50,7 @@
                 <span translate="no">Hello <span id="icon-colchete"><i class="fa-solid fa-code"></i></span></span>
                 <h1 class="typing" translate="no">I'm Jean Pedro<span class="typing-animation"></span></h1>
                 <p translate="no">Front End Developer</p>
-                <a href="assets/Curriculo Jean.pdf" class="botao hvr-bounce-to-right" download>
+                <a href="assets/Curriculo Jean.pdf" class="hvr-bounce-to-right" download>
                     <button class="cta">
                         <span>Download CV</span>
                         <svg width="15px" height="10px" viewBox="0 0 13 10">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="descricao">
                     <div class="img-descricao">
-                        <img src="./assets/img/Fill out-bro.svg" alt="Rapaz analisando dados">
+                        <img src="./assets/img/Fill out-bro.png" alt="Rapaz analisando dados">
                     </div>
                     <div class="texto-descricao">
                         <p><em>Hello my name is Jean Pedro and I'm Front End Developer</em>.I've been studying to be a Front End Developer for 5 months, I'm still at the beginning of my long journey. But I'm always attentive to learn new things and new technologies.</p>
@@ -231,16 +231,19 @@
         </section>
 
         <section class="third-part">
+
             <div class="titulo-third" id="projects">
                 <h2>My Projects <i class="fa-solid fa-folder-open"></i></h2>
                 <h4>Some of my main projects <i class="fa-solid fa-terminal"></i></h4>
             </div>
+
 			<div class="container-third">
 				<div class="img-third">
                     <div class="imagem-third">
-                        <a href="https://jeanaraga.github.io/Curso-de-Bootstrap/">
+                        <a href="https://jeanaraga.github.io/Curso-de-Bootstrap/" class="imagem-paragrafo">
                             <img src="./assets/img/bt-01.png" alt="Página inicial de um site de viagem">
                         </a>
+                        <p class="paragrafro-third"></p>
                     </div>
                 </div>
                 <div class="descricao-third">
@@ -261,9 +264,10 @@
 			<div class="container-third">
 				<div class="img-third">
                     <div class="imagem-third">
-                        <a href="https://jeanaraga.github.io/Gerador-de-Senha/">
+                        <a href="https://jeanaraga.github.io/Gerador-de-Senha/" class="imagem-paragrafo">
                             <img src="./assets/img/Gerador-Senha.PNG" alt="Imagem de um site Gerador de Senha">
                         </a>
+                        <p class="paragrafro-third"></p>
                     </div>
                 </div>
                 <div class="descricao-third">
@@ -279,48 +283,81 @@
                 </div>
 			</div>
 
-            <div class="container-third">
+            <div class="container-third" id="container-third-3">
 				<div class="img-third">
                     <div class="imagem-third">
-                        <a href="https://jeanaraga.github.io/fone-landing-page/">
-                            <img src="./assets/img/Fone-Landing.PNG" alt="Site de compras de fone">
+                        <a href="https://jeanaraga.github.io/Calculadora/" class="imagem-paragrafo">
+                            <img src="./assets/img/Calculadora.PNG" alt="Calculadora" id="calculadora">
                         </a>
+                        <p class="paragrafro-third"></p>
                     </div>
                 </div>
                 <div class="descricao-third">
-                    <h1 id="titulo-projeto" class="titulo-projeto">Sales website made with HTML and CSS </h1>
-                    <p>Headphone sales page, with modern and simple design at the same time, made with only HTML and CSS</p>
+                    <h1 id="titulo-projeto" class="titulo-projeto">Simple Calculator</h1>
+                    <p>Simple calculator, with addition, subtraction, multiplication and division accounts. Made with HTML, CSS and Javascript. It also has the button to delete the entire account or just one character!</p>
                     <div class="linguagens">
                         <ul>
                             <li><i class="devicon-html5-plain-wordmark colored"></i></li>
                             <li><i class="devicon-css3-plain-wordmark colored"></i></li>
+                            <li><i class="devicon-javascript-plain colored"></i></li>
                         </ul>
                     </div>
                 </div>
 			</div>
 
+            <div class="footer-third">
+                <h2>
+                    <a href="https://github.com/Jeanaraga?tab=repositories">More projects coming soon</a>
+                </h2>
+                <img src="./assets/img/Team work-bro.png" alt="">
+            </div>
+
         </section>
     </main>
+
+    <footer>
+        <div class="titulo-footer">
+            <h1>Jean Pedro | Portfolio <i class="fa-solid fa-briefcase"></i></h1>
+            <a href="#header">
+                <button><i class="fa-solid fa-arrow-up"></i></button>
+            </a>
+        </div>
+        <div class="container-footer">
+            <div class="email-footer">
+                <div class="texto-email">
+                    <span>Send me a email !!</span>
+                </div>
+                <a href="mailto:jeanjesuspedrobook@gmail.com">
+                    <button class="botao"> On Here <i class="fa-solid fa-envelope"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="redes-footer">
+                <div class="imagem-footer">
+                    <img src="./assets/img/Creative writing-cuate.png" alt="">
+                </div>
+                <div class="texto-redes">
+                    <div class="titulo-texto" id="contato">
+                        <h3>See my social networks</h3>
+                    </div>
+                    <div class="listas-redes">
+                        <ul>
+                            <li><a href="https://github.com/Jeanaraga"><span class="icone preto"><i class="fa-brands fa-github"></i></span> Github</a></li>
+                            <li><a href="https://www.instagram.com/jeannpedroo/tagged/"><span class="icone vermelho"><i class="fa-brands fa-instagram"></i></span> Instragram</a></li>
+                            <li><a href="https://www.linkedin.com/in/jean-pedro-344356225/"><span class="icone azul"><i class="fa-brands fa-linkedin"></i></span> Linkedin</a></li>
+                            <li><span class="icone verde"><i class="fa-solid fa-phone"></i></span> +55 (37) 3213-3538</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     
 
-    <!--
-                    <nav class="redes-sociais link-1">
-                <ul>
-                    <li>
-                        <a href=""> <i class="fa-brands fa-github"></i> </a>
-                    </li>
-                    <li>
-                        <a href=""> <i class="fa-brands fa-instagram"></i> </a>
-                    </li>
-                    <li>
-                        <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
-                    </li>
-                </ul>
-            </nav>
-    -->
+
 
     <script src="./assets/js/script.js"></script>
-
+    <script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-fzff82+8pzHnwA1mQ0dzz9/E0B+ZRizq08yZfya66INZBz86qKTCt9MLU0NCNIgaMJCgeyhujhasnFUsYMsi0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>

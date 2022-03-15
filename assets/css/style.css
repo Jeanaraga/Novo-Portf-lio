@@ -9,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 62.5%;
 }
 
 
@@ -49,7 +50,7 @@ header ul {
     color: #ffffff;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 3.0rem;
     font-weight: 300;
     border-radius: 2px;
 }
@@ -86,7 +87,7 @@ header ul {
 
 
 .logo h2 {
-    font-size: 30px;
+    font-size: 3.0rem;
     font-weight: 400;
     color: #ffffff;
 }
@@ -110,7 +111,7 @@ header ul {
     align-items: flex-start;
     gap: 20px;
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 5.0rem;
     color:#ffffff;
     width: 50%;
 }
@@ -123,7 +124,7 @@ header ul {
     color: #ADFFB4;
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
-    font-size: 80px;
+    font-size: 8.0rem;
     padding-right: 2px;
     white-space: nowrap;
     overflow: hidden;
@@ -183,7 +184,7 @@ header ul {
    .cta span {
     position: relative;
     font-family: "Ubuntu", sans-serif;
-    font-size: 40px;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 0.05em;
     color: #ffffff;
@@ -267,7 +268,7 @@ header ul {
 
 .titulo h2{
     border-bottom: 3px solid #ffffff;
-    font-size: 50px;
+    font-size: 5rem;
     font-family: 'Fredoka', sans-serif;
     font-weight: 400;
     margin-bottom: 5px;
@@ -318,7 +319,7 @@ header ul {
 .texto-descricao p{
     margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     color: #ffffff;
 }
 
@@ -353,7 +354,7 @@ header ul {
 
 .titulo-detalhes h2 {
     font-family: 'Fredoka', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
@@ -380,7 +381,7 @@ header ul {
     background-color:   #ffffff;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     border-radius: 4px;
 }
@@ -399,7 +400,7 @@ header ul {
     color: #ffffff;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     border-radius: 4px;
 }
@@ -415,7 +416,7 @@ header ul {
 
 .titulo-interesses h2{
     font-family: 'Fredoka', sans-serif;
-    font-size: 30px;
+    font-size: 3.0rem;
     color: #ffffff;
     font-weight: 500;
     text-align: center;
@@ -454,7 +455,7 @@ header ul {
 
 .bloquinho span {
     color: #181818;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -485,7 +486,7 @@ header ul {
 
 .titulo-secundary h2{
     font-family: 'Fredoka', sans-serif;
-    font-size: 50px;
+    font-size: 5.0rem;
     font-weight: 500;
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
@@ -518,7 +519,7 @@ header ul {
 
 .titulo-main-skill h2 {
     font-family: 'Fredoka', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 400;
     color: #ffffff;
     border-bottom: 3px solid #ffffff;
@@ -546,7 +547,7 @@ header ul {
 
 .skills .nome-skill{
     font-family: 'Fredoka', sans-serif;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 300;
     color: #ffffff;
     padding-left: 20px;
@@ -642,7 +643,7 @@ header ul {
 
 .titulo-third h2 {
     font-family: 'Fredoka', sans-serif;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 500;
     color: #ffffff;
     margin-bottom: 20px;
@@ -650,7 +651,7 @@ header ul {
 
 .titulo-third h4 {
     font-family: 'Fredoka', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     color: #ADFFB4;
     font-weight: 300;
 }
@@ -719,7 +720,7 @@ header ul {
 
 
 .descricao-third h1 {
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Fredoka', sans-serif;
     text-align: start;
     color: #ADFFB4;
@@ -745,13 +746,13 @@ header ul {
 
 .descricao-third span {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
 }
 
 .descricao-third p {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #ffffff;
@@ -766,7 +767,7 @@ header ul {
 }
 
 .linguagens li {
-    font-size: 50px;
+    font-size: 5rem;
     transition: 0.5s;
 }
 
@@ -787,9 +788,9 @@ header ul {
 }
 
 .footer-third h2 {
-    width: 40%;
+    width: 50%;
     height: 80%;
-    font-size: 80px;
+    font-size: 8rem;
     text-align: start;
     display: flex;
     align-items: center;
@@ -846,14 +847,14 @@ footer {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    font-size: 24px;
+    font-size: 2.4rem;
     background-color: #ADFFB4;
     border: none;
     cursor: pointer;
 }
 
 .titulo-footer h1{
-    font-size: 50px;
+    font-size: 5rem;
     font-family: 'Fredoka', sans-serif;
     font-weight: 500;
     color: #fff;
@@ -887,7 +888,7 @@ footer {
 
 .email-footer span {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 5rem;
     font-weight: 600;
     color: #fff;
     width: 60%;
@@ -904,7 +905,7 @@ footer {
     font-family: 'Fredoka', sans-serif;
     background-color: #181818;
     color: #fff;
-    font-size: 30px;
+    font-size: 3rem;
     border-radius: 10px;
     border: 2px solid #ADFFB4;
     transition: 0.5s;
@@ -945,7 +946,7 @@ footer {
     justify-content: space-around;
 }
 .titulo-texto h3 {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 500;
     font-family: 'Fredoka', sans-serif;
     color: #fff;
@@ -962,7 +963,7 @@ footer {
 }
 
 .listas-redes li, .listas-redes a {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -975,7 +976,7 @@ footer {
 }
 
 .listas-redes .icone {
-    font-size: 30px;
+    font-size: 3rem;
     margin-right: 5px;
 }
 
@@ -1001,6 +1002,534 @@ footer {
     visibility: hidden;
 }
 
-
 /**** SCROLL REVEAL ***/
 
+
+
+
+@media (max-width: 1050px) {
+    html {
+        font-size: 55%;
+    }
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+
+@media (max-width: 900px) {
+    html {
+        font-size: 45%;
+    }
+    body {
+        max-width: 100%;
+    }
+    .img-descricao img {
+        width: 100%;
+        height: 90%;
+    }
+    .container-outros {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .personal-details {
+        width: 100%;
+        height: 380px;
+        margin-bottom: 50px;
+    }
+
+    .detalhes {
+        width: 80%;
+    }
+    .titulo-detalhes h2 {
+        font-size: 3.5rem;
+    }
+    
+    .items-detalhes {
+       width: 50%;
+    }
+    .info-detalhes {
+        align-items: flex-end;
+        width: 50%;
+    }
+    .interests {
+        width: 80%;
+        height: 380px;
+    }
+    .secundary-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .conteudo-secundary {
+        width: 80%;
+    }
+    .container-third {
+        width: 90%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .descricao-third {
+        width: 70%;
+        height: 40%;
+    }
+    .img-third {
+        width: 70%;
+        height: 50%;
+    }
+    .footer-third img {
+        width: 30%;
+        height: 70%;
+    }
+    .imagem-footer {
+        width: 35%;
+        height: 80%;
+    }
+    .email-footer {
+        width: 35%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    html {
+        font-size: 35%;
+    }
+    header {
+        height: 500px;
+    }
+    .link {
+        font-size: 3.5rem;
+    }
+    .cta:before {
+        width: 50px;
+        height: 50px;
+    }
+    .imagem-header img {
+        width: 100%;
+        height: 200px;
+    }
+    .introducao-main {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .titulo .barra {
+        width: 90px;
+    }
+    .img-descricao img {
+        width: 100%;
+        height: 80%;
+    }
+    .container-secundary {
+        width: 100%;
+        height: 100%;
+    }
+    .skills .nome-skill {
+        font-size: 3rem;
+    }
+    .titulo-main-skill h2 {
+        font-size: 4rem;
+    }
+    .skills .nome-skill {
+        font-size: 4rem;
+    }
+    .container-third {
+        width: 90%;
+        height: 500px;
+    }
+    .footer-third img {
+        width: 30%;
+        height: 60%;
+    }
+    .titulo-footer button {
+        width: 40px;
+        height: 40px;
+    }
+    .container-footer {
+        margin-top: 50px;
+        width: 100%;
+        height: 75%;
+        display: flex;
+        flex-direction: column;
+    }
+    .email-footer {
+        display: none;
+    }
+    .redes-footer {
+        margin-top: 20px;
+        width: 90%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    footer {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        font-size: 25%;
+        max-width: 100%;
+    }
+    body {
+       max-width: 100%;
+    }
+    header {
+        height: 400px;
+    }
+    .cta:before {
+        width: 40px;
+        height: 40px;
+    }
+    .titulo .barra {
+        width: 60px;
+    }
+    .img-descricao img {
+        width: 0%;
+        height: 0%;
+        display: none;
+    }
+    .descricao {
+        width: 100%;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-descricao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .img-descricao {
+        width: 20%;
+        height: 300px;
+        display: none;
+    }
+    .texto-descricao p {
+        font-size: 3rem;
+    }
+    .introducao-main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .texto-descricao p {
+        font-size: 3rem;
+    }
+    .info-detalhes {
+        gap: 10px;
+    }
+    .personal-details {
+        height: 280px;
+    }
+    .interests {
+        width: 80%;
+        height: 280px;
+    }
+    .bloquinho {
+        height: 90px;
+        width: 22%;
+    }
+    .blocao {
+        height: 100px;
+        width: 100%;
+    }
+    .conteudo-secundary {
+        width: 100%;
+        height: 350px;
+        margin-bottom: 50px;
+    }
+    .titulo-third {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .container-third {
+        width: 90%;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    .footer-third img {
+        width: 30%;
+        height: 50%;
+    }
+    .footer-third {
+        width: 100%;
+        height: 300px;
+    }
+    footer {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 20%;
+    }
+    header {
+        height: 350px;
+    }
+    .imagem-header img {
+        width: 100%;
+        height: 150px;
+    }
+    .principal-header {
+        height: 50%;
+        margin-bottom: 40px;
+    }
+    .introducao-main {
+        margin-top: 25px;
+        margin-bottom: 0px;
+    }
+    .titulo {
+        margin-bottom: 0px;
+    }
+    .personal-details {
+        height: 200px;
+    }
+    .items-detalhes li {
+        padding: 5px;
+    }
+    .bloquinho {
+        height: 60px;
+        width: 22%;
+    }
+    .blocao {
+        height: 80px;
+        width: 100%;
+    }
+    .interests {
+        width: 80%;
+        height: 200px;
+    }
+    .titulo-secundary {
+        margin-top: 25px;
+        margin-bottom: 50px;
+    }
+    .titulo-secundary hr {
+        width: 20px;
+        height: 1.5px;
+        background-color: #ffffff;
+        border: none;
+    }
+    .barra-progresso span {
+        height: 30px;
+        width: 30px;
+    }
+    .container-secundary {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        left: -20px;
+    }
+    .skills .barra-progresso {
+        width: 100%;
+        height: 5px;
+    }
+    .container-third {
+        width: 90%;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .footer-third {
+        width: 100%;
+        height: 200px;
+    }
+    .container-footer {
+        margin-top: 0px;
+    }
+    .titulo-footer button {
+        width: 30px;
+        height: 30px;
+    }
+    .descricao-third {
+        width: 70%;
+        height: 30%;
+    }
+    .descricao-third h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+    .main {
+        height: 700px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    html {
+        font-size: 15%;
+    }
+    header {
+        height: 300px;
+        justify-content: space-around;
+    }
+    .imagem-header img {
+        width: 100%;
+        height: 100px;
+    }
+    .escrito-header {
+        gap: 10px;
+    }
+    .cta span {
+        font-size: 5rem;
+    }
+    .cta:before {
+        width: 35px;
+        height: 35px;
+    }
+    .link {
+        font-size: 4rem;
+    }
+    .titulo .barra {
+        width: 30px;
+    }
+    .texto-descricao p {
+        font-size: 3.4rem;
+        margin-bottom: 5px;
+    }
+    .personal-details {
+        height: 170px;
+    }
+    .info-detalhes {
+        gap: 5px;
+    }
+    .titulo-interesses h2 {
+        font-size: 4rem;
+    }
+    .bloquinho {
+        height: 50px;
+        width: 22%;
+    }
+    .blocao {
+        height: 70px;
+        width: 100%;
+    }
+    .main {
+        height: 700px;
+    }
+    .barra-progresso span {
+        height: 25px;
+        width: 25px;
+    }
+    .titulo-third {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .container-third {
+        width: 90%;
+        height: 250px;
+        margin-bottom: 50px;
+    }
+    .footer-third {
+        width: 100%;
+        height: 150px;
+    }
+    footer {
+        width: 100%;
+        height: 200px;
+    }
+    .titulo-footer button {
+        width: 20px;
+        height: 20px;
+    }
+    .listas-redes ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: none;
+        position: relative;
+        left: 0px;
+    }
+    
+}
+
+@media (max-width: 300px) {
+    html {
+        font-size: 10%;
+    }
+    header {
+        height: 250px;
+        justify-content: space-around;
+    }
+    .cta:before {
+        width: 30px;
+        height: 30px;
+    }
+    .cta span {
+        font-size: 5rem;
+        position: relative;
+        top: -5px;
+    }
+    .cta svg {
+        position: relative;
+        top: -3px;
+    }
+    .descricao {
+        width: 100%;
+        height: 100px;
+    }
+    .titulo h2 {
+        border-bottom: 1.5px solid #ffffff;
+    }
+    .titulo .barra {
+        width: 20px;
+        height: 1.5px;
+    }
+    .personal-details {
+        height: 140px;
+    }
+    .info-detalhes {
+        gap: 10px;
+    }
+    .main {
+        height: 600px;
+    }
+    .container-secundary {
+        width: 100%;
+        height: 70%;
+        position: relative;
+        left: -20px;
+    }
+    .conteudo-secundary {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 0px;
+    }
+    .titulo-main-skill h2 {
+        border-bottom: 1.5px solid #ffffff;
+    }
+    .titulo-secundary {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .titulo-secundary h2 {
+        border-bottom: 1.5px solid #ffffff;
+    }
+    .titulo-third {
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+    .titulo-third h2 {
+        margin-bottom: 5px;
+    }
+    .container-third {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+}

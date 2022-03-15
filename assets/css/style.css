@@ -1108,6 +1108,15 @@ footer {
     header {
         height: 500px;
     }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 400px;
+        }
+    }
+    
     .link {
         font-size: 3.5rem;
     }
@@ -1186,6 +1195,14 @@ footer {
     }
     body {
        max-width: 100%;
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 300px;
+        }
     }
     header {
         height: 400px;
@@ -1377,6 +1394,14 @@ footer {
     header {
         height: 300px;
         justify-content: space-around;
+    }
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+        to {
+            width: 200px;
+        }
     }
     .imagem-header img {
         width: 100%;

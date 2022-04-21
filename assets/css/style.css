@@ -699,10 +699,6 @@ header ul {
     margin: 0 auto;
 }
 
-.imagem-third #calculadora {
-    width: 50%;
-}
-
 .imagem-third img:hover {
     transform: scale(1.05);
 }
